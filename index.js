@@ -86,9 +86,10 @@ function inputScore() {
 }
 
 function view() {
-  return html`<h1>Leaderboard</h1>
-    <h2>Score : Player</h2>
+  return html`
     <div id="score-container">
+      <h1>Leaderboard</h1>
+      <h2>Score : Player</h2>
       ${scores.map((msg) => html`<div class="score">${msg.score} : ${msg.user}</div>`)}
     </div>`;
 }

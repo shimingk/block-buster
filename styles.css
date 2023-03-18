@@ -1,22 +1,18 @@
 body {
-  margin: 0 auto;
-  max-width: 50rem;
+  margin: 0;
   font-family: "Helvetica", "Open Sans", sans-serif;
-  line-height: 1.5;
-  padding: 4rem 1rem;
+  /* line-height: 1.5; */
+  /* padding: 4rem 1rem; */
   color: #555;
   /* margin: 0; */
-  /* display: flex; */
+  display:grid;
 
-  /* This centers our sketch horizontally. */
-  justify-content: center;
-
-  /* This centers our sketch vertically. */
-  align-items: center;
 }
 
 html, body {
   height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -24,7 +20,13 @@ main {
   align-items: center;
 }
 
-.class {
+#score-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.score {
   font-family: 'Courier New', Courier, monospace;
 }
 
