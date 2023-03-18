@@ -3,10 +3,10 @@ body {
   font-family: "Helvetica", "Open Sans", sans-serif;
   /* line-height: 1.5; */
   /* padding: 4rem 1rem; */
-  color: #555;
+  color: navy;
   /* margin: 0; */
   display:grid;
-
+  background-color: #555;
 }
 
 html, body {
@@ -24,15 +24,30 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: navy;
+  color: #c75a00;
+  padding-bottom: 1rem;
 }
 
 .score {
   font-family: 'Courier New', Courier, monospace;
 }
 
+#input-container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  background-color: #c75a00;
+  padding-bottom: 1rem;
+}
+
+input[type="text"]::placeholder {
+  text-align: center;
+}
+
 h1,
 strong {
-  color: #333;
+  color: #c75a00;
 }
 
 a {
