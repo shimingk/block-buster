@@ -38,7 +38,7 @@ main {
   align-items: center;
   display: grid;
   background-color: #c75a00;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 input[type="text"]::placeholder {
